@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "list": [
+    {
+      "content": {
+        "detecttype": "ppt",
+        "is_key": false,
+        "pptimgurl": "https://example.com/ppt/image123.jpg",
+        "status": "running",
+        "taskid": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+        "pptthumb": "https://example.com/ppt/thumb123.jpg",
+        "created": "1745195039000"
+      },
+      "course_id": 1234,
+      "create_time": "2025-04-21 08:23:59",
+      "created_sec": 4,
+      "default": 1,
+      "id": 123456,
+      "sub_id": 654321,
+      "update_time": "2025-04-21 08:23:59"
+    }
+  ],
+  "msg": "查询成功",
+  "total": 6
+}
