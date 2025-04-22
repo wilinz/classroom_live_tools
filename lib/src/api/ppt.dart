@@ -4,12 +4,12 @@ import 'package:classroom_live_tools/src/model/search_ppt_response/search_ppt_re
 import 'package:classroom_live_tools/src/model/user_info_simple/user_info_simple.dart';
 import 'package:dio/dio.dart';
 
-class SchoolLive {
+class SchoolLivePpt {
   late Dio dio;
   late String token;
   final String cookieHeader;
 
-  SchoolLive({required this.cookieHeader, Dio? dio, String? baseUrl}) {
+  SchoolLivePpt({required this.cookieHeader, Dio? dio, String? baseUrl}) {
     final token = getTokenAndTenantCodeFromCookie(cookieHeader)['token'];
     if (token == null) {
       throw Exception("Failed to resolve the token, please check the cookie!");
